@@ -1,0 +1,166 @@
+body {
+  padding-top: 50px;
+  background-color: #bdc3c7;
+  color: white;
+  margin:0 auto;
+  position:relative;
+  overflow: hidden;
+}
+.canvas {
+  margin-left: 200px;
+  margin-top: 120px;
+  padding: 20px 15px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.center{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+#canvas {
+  box-shadow: 5px 5px 50px #555555;
+  text-align: center;
+  border-radius: 20px;
+
+}
+#toolbox{
+ margin-left: 10px;
+ margin-top: 200px;
+
+}
+.footer {
+  position: fixed;
+  height: 200px;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+.footer-item{
+  display: inline-block;
+  height:120px;
+  width:150px;
+  vertical-align: top;
+  float: none;
+  margin-right: 10px;
+}
+.footer-item button{
+  width:100%;
+  height: 100%;
+}
+
+.footer-item h5{
+  margin-top: 10px;
+}
+.footer-item button img{
+  width: 100px;
+  height: 60px;
+
+}
+
+@media (min-width: 992px) {
+  .footer-panel {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 15px;
+  }
+
+#properties{
+  margin-right: 10px;
+  margin-top: 100px;
+  overflow-y: scroll;
+  white-space: nowrap;
+  max-height: 290px;
+}
+#layers{
+  overflow-y: scroll;
+  white-space: nowrap;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  max-height: 300px;
+}
+#layers ul{
+  width: 100%;
+  padding-right: 15px;
+}
+
+#layers ul li{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.input-group{
+  margin-top: 10px;
+}
+
+.panel-body{
+  color: grey;
+}
+
+.background {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 0px;
+
+
+}
+.background li {
+
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding: 5px;
+  font-size: 1.2em;
+  height: 50px;
+}
+
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 5px;
+  font-size: 1.2em;
+  height: 50px;
+}
+
+#sortable li span {
+  margin-left: 0;
+}
+
+#sortable li input {
+  width: 60%;
+  height: 30px;
+}
+
+.layer{
+  padding:10px 0px 10px 10px;
+}
+.layer button{
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin-right: 10px;
+  float: right;
+}
+.layer button i{
+  font-size: 15px;
+}
